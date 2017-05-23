@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  let urls = ['http://github.com', 'http://www.google.com'];
+  let urls = ['https://github.com', 'https://www.google.com'];
   let crawler = new Crawler(urls);
   crawler.crawl();
 })
